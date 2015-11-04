@@ -1,0 +1,157 @@
+body 
+{
+font-family : Times New Roman;
+font-size: 14;
+font-weight: normal; 
+}
+
+a
+{
+font: bold;
+color: #0000ff;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #ff0000;
+}
+
+input
+{
+color: #000000;
+background: transparent;
+}
+
+select
+{
+background: #dddddd;
+}
+
+#logout
+{
+position:absolute; top: 0px; left: 0px;
+}
+
+textarea
+{
+background: transparent;
+font-family: arial;
+font-size: 14px;
+font-weight: normal;
+}
+
+span
+{
+}
+
+.date
+{
+position:absolute; left: 60px;
+}
+
+.start
+{
+position:absolute; left: 160px;
+text-align: right;
+width: 70px;
+}
+
+.end
+{
+position:absolute; left: 260px;
+text-align: right;
+width: 70px;
+}
+
+.tot
+{
+position:absolute; left: 330px;
+text-align: right;
+width: 70px;
+}
+
+.expl
+{
+position:absolute; left: 460px;
+}
+
+#total
+{
+position:absolute; left: 200px;
+font-size: 14px;
+font-weight: normal;
+text-align: right;
+width: 200px;
+}
+
+#headdate
+{
+position:absolute; top: 60px; left: 60px;
+font-size: 14px;
+font-weight: normal;
+}
+
+#headstart
+{
+position:absolute; top: 60px; left: 190px;
+font-size: 14px;
+font-weight: normal;
+}
+
+#headend
+{
+position:absolute; top: 60px; left: 290px;
+font-size: 14px;
+font-weight: normal;
+}
+
+#headtot
+{
+position:absolute; top: 60px; left: 385px;
+font-size: 14px;
+font-weight: normal;
+}
+
+#headexpl
+{
+position:absolute; top: 60px; left: 460px;
+font-size: 12px;
+font-weight: normal;
+}
+
+#headtext1
+{
+position:absolute; top: 30px; left: 160px;
+font-size: 14px;
+font-weight: normal;
+}
+
+#headtext2
+{
+position:absolute; top: 30px; left: 270px;
+font-size: 14px;
+font-weight: normal;
+}
+
+#headtext3
+{
+position:absolute; top: 30px; left: 370px;
+font-size: 14px;
+font-weight: normal;
+}
+
+#headtext4
+{
+position:absolute; top: 30px; left: 420px;
+font-size: 14px;
+font-weight: normal;
+}
+
+
+
+
+
+
+
+

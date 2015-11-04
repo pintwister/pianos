@@ -1,0 +1,58 @@
+form
+{ 
+width: 254px; height: 500px;
+}
+
+#GreaterThanText
+{
+position:absolute; top: 84px; left: 160px;
+width: 180px;
+
+}
+
+#GreaterThanInput
+{
+position:absolute; top: 80px; left: 325px;
+width: 180px;
+}
+
+#LessThanText
+{
+position:absolute; top: 84px; left: 500px;
+width:180px;
+}
+
+#LessThanInput
+{
+position:absolute; top: 80px; left: 647px;
+width:180px;
+}
+
+.ViewServiceButton
+{
+position:absolute; top: 30px; left: 410px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+position:absolute; top: 400px; left: 420px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.BackButton
+{
+position:absolute; top: 400px; left: 565px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+

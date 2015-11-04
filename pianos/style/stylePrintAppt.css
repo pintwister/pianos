@@ -1,0 +1,121 @@
+body 
+{
+font-family: Times New Roman;
+font-size: 14;
+font-weight: normal; 
+}
+
+a
+{
+font: bold;
+color: #0000ff;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #ff0000;
+}
+
+input
+{
+color: #000000;
+background: transparent;
+}
+
+select
+{
+background: #dddddd;
+}
+
+#logout
+{
+position:absolute; top: 0px; left: 0px;
+}
+
+textarea
+{
+background: transparent;
+font-size: 14px;
+}
+
+span
+{
+}
+
+form
+{ 
+width: 254px; height: 500px;
+}
+
+
+
+.counter
+{
+text-align: right;
+position:absolute; left: 0px;
+width: 20px;
+}
+
+.ldate
+{
+position:absolute; left: 60px;
+}
+
+.ndate
+{
+position:absolute; left: 150px;
+}
+
+.phone
+{
+position:absolute; left: 240px;
+}
+
+.city
+{
+position:absolute; left: 360px;
+}
+
+
+.name
+{
+position:absolute; left: 480px;
+}
+
+#headtext
+{
+position:absolute; top: 20px; left: 140px;
+font-size: 14px;
+}
+
+#headldate
+{
+position:absolute; top: 55px; left: 62px;
+font-size: 14px;
+}
+
+#headndate
+{
+position:absolute; top: 55px; left: 152px;
+font-size: 14px;
+}
+
+#headphone
+{
+position:absolute; top: 55px; left: 242px;
+font-size: 14px;
+}
+
+#headcity
+{
+position:absolute; top: 55px; left: 360px;
+font-size: 14px;
+}
+
+#headname
+{
+position:absolute; top: 55px; left: 482px;
+font-size: 14px;
+}
+

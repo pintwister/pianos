@@ -1,0 +1,104 @@
+#EditRecordText
+{
+position:absolute; top: 55px; left:420px;
+font-size : 12pt; 
+font-weight : bold;
+}
+
+#UserNameLabel
+{
+position:absolute; top: 130px; left: 380px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.UserNameInput
+{
+position:absolute; top: 145px; left: 360px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#PasswordLabel
+{
+position:absolute; top: 170px; left: 360px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.PasswordInput
+{
+position:absolute; top: 185px; left: 360px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#AdminLabel
+{
+position:absolute; top: 210px; left: 360px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.AdminInput
+{
+position:absolute; top: 225px; left: 360px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#FirstNameLabel
+{
+position:absolute; top: 250px; left: 360px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.FirstNameInput
+{
+position:absolute; top: 265px; left: 360px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#LastNameLabel
+{
+position:absolute; top: 290px; left: 360px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.LastNameInput
+{
+position:absolute; top: 305px; left: 360px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+
+.SubmitButton
+{
+position:absolute; top: 370px; left: 360px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.backButton
+{
+position:absolute; top: 370px; left: 438px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+
+#usernameLabel
+{
+position:absolute; top: 130px; left: 400px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.usernameInput
+{
+position:absolute; top: 145px; left: 400px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#passwordLabel
+{
+position:absolute; top: 170px; left: 400px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.passwordInput
+{
+position:absolute; top: 185px; left: 400px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#adminLabel
+{
+position:absolute; top: 220px; left: 400px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.adminInput
+{
+position:absolute; top: 235px; left: 400px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#FirstNameLabel
+{
+position:absolute; top: 275px; left: 400px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.FirstNameInput
+{
+position:absolute; top: 290px; left: 400px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#LastNameLabel
+{
+position:absolute; top: 330px; left: 400px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.LastNameInput
+{
+position:absolute; top: 345px; left: 400px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.AddButton
+{
+position:absolute; top: 400px; left: 400px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.ReturnButton
+{
+position:absolute; top: 400px; left: 540px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+

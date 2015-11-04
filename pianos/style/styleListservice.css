@@ -1,0 +1,224 @@
+#CarryOverText
+{
+position:absolute; top: 30px; left: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#CommentsText
+{
+position:absolute; top: 120px; left: 220px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#ClickText
+{
+position:absolute; top: 30px; left: 380px;
+width: 500px;
+height: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#line
+{
+position:absolute; top: 15px; left: 14px;
+border-top: 1px solid black;
+width: 525px;
+}
+
+#main
+{
+position:relative; top: 10px; left: 0px;
+overflow: auto;
+font-size: 14px;
+font-weight: bold;
+width: 600px;height: 300px;
+
+}
+
+#main2
+{
+position:relative; top: 10px; left: 0px;
+font-size: 14px;
+font-weight: bold;
+}
+
+
+#datelabel
+{
+position:absolute; top: 0px; left: 50px;
+width: 45px;
+}
+
+#servicelabel
+{
+position:absolute; top: 0px; left: 200px;
+width: 65px;
+}
+
+#receivedlabel
+{
+position:absolute; top: 0px; left: 270px;
+width: 75px;
+}
+
+#chargedlabel
+{
+position:absolute; top: 0px; left: 355px;
+width: 65px;
+}
+
+#checklabel
+{
+position:absolute; top: 0px; left: 475px;
+width: 65px;
+}
+
+.link
+{
+position:absolute; left: 15px;
+width: 180px;
+}
+
+.ServiceLink
+{
+position:absolute; left: 86px;
+width: 164px;
+text-align: right;
+}
+
+.ServAmntLink
+{
+position:absolute; left: 265px;
+width: 70px;
+text-align: right;
+}
+
+.PartsAmntLink
+{
+position:absolute; left: 340px;
+width: 70px;
+text-align: right;
+}
+
+.CheckLink
+{
+position:absolute; left: 460px;
+width: 70px;
+text-align: right;
+}
+
+.star
+{
+position:absolute; left: 0px;
+font-size: 20px;
+}
+
+#PhoneText
+{
+position:absolute; top: 80px; left: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#landlineText
+{
+position:absolute; top: 80px; left: 120px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell1Text
+{
+position:absolute; top: 95px; left: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell2Text
+{
+position:absolute; top: 95px; left: 120px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.ButtonBar
+{
+position:absolute; top: 550px; left: 220px;
+}
+
+.NewSearchButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.BackButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.AddButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.AddCharge
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+.PrintButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.PrintShare
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.PhonePrint
+{
+position:absolute; top: 550px; left: 736px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+.dot
+{
+position:absolute; top: 335px; left: 900px;
+
+}
+
+
+#RTotalLabel
+{
+width: 180px;
+position:absolute; top: 510px; left: 374px;
+font-size: 14px;
+font-weight: bold;
+text-align: right;
+}

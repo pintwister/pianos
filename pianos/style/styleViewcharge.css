@@ -1,0 +1,130 @@
+#name
+{
+position:absolute; top: 80px; left: 10px;
+font-size: 14px;
+font-weight: bold;
+}
+
+#add1
+{
+position:absolute; top: 100px; left: 10px;
+font-size: 14px;
+font-weight: bold;
+}
+
+#add2
+{
+position:absolute; top: 120px; left: 10px;
+font-size: 14px;
+font-weight: bold;
+}
+
+#AmntCh
+{
+position:absolute; top: 50px; left: 317px;
+font-size: 14px;
+font-weight: bold;
+color: #cc6600;
+}
+
+#AmntPd
+{
+position:absolute; top: 50px; left: 670px;
+font-size: 14px;
+font-weight: bold;
+color: blue;
+}
+
+#AmntChTot
+{
+position:absolute; top: 290px; left: 200px;
+font-size: 14px;
+font-weight: bold;
+color: #cc6600;
+}
+
+#AmntPdTot
+{
+position:absolute; top: 310px; left: 200px;
+font-size: 14px;
+font-weight: bold;
+color: blue;
+}
+
+#bal
+{
+position:absolute; top: 330px; left: 200px;
+font-size: 14px;
+font-weight: bold;
+color: red;
+}
+
+
+#totcharged
+{
+text-align: right;
+width: 90px;
+position:absolute; top: 290px; left: 290px;
+font-size: 14px;
+font-weight: bold;
+color: #cc6600;
+}
+
+#totalpayment
+{
+text-align: right;
+width: 90px;
+position:absolute; top: 310px; left: 290px;
+font-size: 14px;
+font-weight: bold;
+color: blue;
+}
+
+#balance
+{
+text-align: right;
+width: 90px;
+position:absolute; top: 330px; left: 290px;
+font-size: 14px;
+font-weight: bold;
+color: red;
+}
+
+#main
+{
+position:absolute; top: 80px; left: 210px;
+overflow: auto;
+font-size: 14px;
+font-weight: bold;
+width: 550px; height: 200px;
+}
+
+.MainButton
+{
+position:absolute; top: 370px; left: 230px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

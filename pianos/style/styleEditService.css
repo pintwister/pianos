@@ -1,0 +1,143 @@
+#CarryOverText
+{
+position:absolute; top: 30px; left: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#AddNewText
+{
+position:absolute; top: 20px; left:280px;
+font-size : 12pt; 
+font-weight : bold;
+}
+
+
+#ServiceDateLabel
+{
+position:absolute; top: 130px; left: 180px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#ServiceDateInput
+{
+position:absolute; top: 145px; left: 328px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.ServiceDateInput
+{
+position:absolute; top: 145px; left: 180px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+#ServiceLabel
+{
+position:absolute; top: 175px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.ServiceInput
+{
+position:absolute; top: 190px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#ServRecLabel
+{
+position:absolute; top: 175px; left: 413px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.ServRecInput
+{
+position:absolute; top: 190px; left: 380px;
+font-size: 12px;
+font-weight: bold;
+text-align: right;
+}
+
+
+#PartsRecLabel
+{
+position:absolute; top: 215px; left: 413px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.PartsRecInput
+{
+position:absolute; top: 230px; left: 380px;
+font-size: 12px;
+font-weight: bold;
+text-align: right;
+}
+
+#CheckLabel
+{
+position:absolute; top: 255px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.CheckInput
+{
+position:absolute; top: 270px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#CommentsLabel
+{
+position:absolute; top: 315px; left: 60px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#CommentsInput
+{
+position:absolute; top: 330px; left: 60px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.EditButton
+{
+position:absolute; top: 410px; left: 270px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.BackButton
+{
+position:absolute; top: 410px; left: 340px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

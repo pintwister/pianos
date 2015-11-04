@@ -1,0 +1,96 @@
+#EntryText
+{
+position:absolute; top: 130px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+
+#Entry
+{
+position:absolute; top: 130px; left: 670px;
+}
+
+.Entry
+{
+position:absolute; top: 130px; left: 520px;
+}
+
+#StartText
+{
+position:absolute; top: 160px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.Start
+{
+position:absolute; top: 160px; left: 520px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+#EndText
+{
+position:absolute; top: 190px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.end
+{
+position:absolute; top: 190px; left: 520px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+
+#DestText
+{
+position:absolute; top: 250px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.Dest
+{
+position:absolute; top: 250px; left: 520px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.CommitButton
+{
+position:absolute; top: 370px; left: 380px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.CancelButton
+{
+position:absolute; top: 370px; left: 455px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

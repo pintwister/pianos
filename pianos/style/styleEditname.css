@@ -1,0 +1,332 @@
+input
+{
+font-family : arial;
+font-size: 12px;
+font-weight: bold;
+color: #000000;
+background: transparent;
+}
+
+#EditRecordText
+{
+position:absolute; top: 55px; left:420px;
+font-size : 12pt; 
+font-weight : bold;
+}
+
+#fnameLabel
+{
+position:absolute; top: 130px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.fnameInput
+{
+position:absolute; top: 145px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#lnameLabel
+{
+position:absolute; top: 130px; left: 407px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.lnameInput
+{
+position:absolute; top: 145px; left: 407px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#feeLabel
+{
+position:absolute; top: 130px; left: 634px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.feeInput
+{
+position:absolute; top: 145px; left: 634px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#stnoLabel
+{
+position:absolute; top: 170px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.stnoInput
+{
+position:absolute; top: 185px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#stnmLabel
+{
+position:absolute; top: 170px; left: 275px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.stnmInput
+{
+position:absolute; top: 185px; left: 275px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#cityLabel
+{
+position:absolute; top: 210px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.cityInput
+{
+position:absolute; top: 225px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#stateLabel
+{
+position:absolute; top: 210px; left: 335px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.stateInput
+{
+position:absolute; top: 225px; left: 335px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#zipLabel
+{
+position:absolute; top: 210px; left: 381px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.zipInput
+{
+position:absolute; top: 225px; left: 381px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#phoneLabel
+{
+position:absolute; top: 250px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#phoneInput
+{
+position:absolute; top: 265px; left: 180px;
+}
+
+.phone1
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.phone2
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.phone3
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+#landlineLabel
+{
+position:absolute; top: 250px; left: 400px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#landlineInput
+{
+position:absolute; top: 265px; left: 400px;
+}
+
+.landline1
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.landline2
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.landline3
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell1Label
+{
+position:absolute; top: 295px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#cell1Input
+{
+position:absolute; top: 310px; left: 180px;
+}
+
+.cell11
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.cell12
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.cell13
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell2Label
+{
+position:absolute; top: 295px; left: 400px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#cell2Input
+{
+position:absolute; top: 310px; left: 400px;
+}
+
+.cell21
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.cell22
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.cell23
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+#emailLabel
+{
+position:absolute; top: 365px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.emailInput
+{
+position:absolute; top: 380px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#NextApptLabel
+{
+position:absolute; top: 130px; left: 686px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#NextApptInput
+{
+position:absolute; top: 145px; left: 817px;
+font-family : arial;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.NextApptInput
+{
+position:absolute; top: 145px; left: 686px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#commentsLabel
+{
+position:absolute; top: 430px; left: 170px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#commentsInput
+{
+position:absolute; top: 445px; left: 170px;
+
+overflow:auto;
+border: 0;
+}
+
+.submitButton
+{
+position:absolute; top: 550px; left: 390px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+font-size : 12px; 
+font-weight: normal;
+}
+
+.backButton
+{
+position:absolute; top: 550px; left: 460px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+font-size : 12px; 
+font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+

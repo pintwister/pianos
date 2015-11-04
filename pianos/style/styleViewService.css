@@ -1,0 +1,167 @@
+#CarryOverText
+{
+position:absolute; top: 30px; left: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#ServiceDateLabel
+{
+position:absolute; top: 130px; left: 180px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#ServiceDateText
+{
+position:absolute; top: 145px; left: 180px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+#ServiceLabel
+{
+position:absolute; top: 175px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+#ServiceText
+{
+position:absolute; top: 190px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#ServRecLabel
+{
+position:absolute; top: 175px; left: 380px;
+font-size: 10px;
+font-weight: bold;
+}
+
+#ServRecText
+{
+position:absolute; top: 190px; left: 360px;
+font-size: 12px;
+font-weight: bold;
+width: 70px;
+text-align: right;
+}
+
+#PartsRecLabel
+{
+position:absolute; top: 215px; left: 380px;
+font-size: 10px;
+font-weight: bold;
+}
+
+#PartsRecText
+{
+position:absolute; top: 230px; left: 360px;
+font-size: 12px;
+font-weight: bold;
+width: 70px;
+text-align: right;
+}
+
+#CheckLabel
+{
+position:absolute; top: 255px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+#CheckText
+{
+position:absolute; top: 270px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#CommentsLabel
+{
+position:absolute; top: 315px; left: 60px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#CommentsText
+{
+position:absolute; top: 330px; left: 60px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.DeleteButton
+{
+position:absolute; top: 410px; left: 250px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.BackButton
+{
+position:absolute; top: 410px; left: 320px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+position:absolute; top: 410px; left: 380px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.EditButton
+{
+position:absolute; top: 410px; left: 435px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+#AreYouSureText
+{
+position:absolute; top: 460px; left: 230px;
+color: red;
+font-size : 12px; 
+font-weight : bold;
+text-align: center;
+}
+
+.YesButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.NoButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

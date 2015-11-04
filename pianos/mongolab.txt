@@ -1,0 +1,29 @@
+
+cd\mongo\bin
+
+
+
+
+
+
+Import collection
+
+MONGOLAB
+mongoimport -h dbh56.mongolab.com:27567 -d pianos -c <collection> -u pintwister -p pitboss1 --file <input file> 
+
+LOCALHOST
+mongoimport -h localhost -d pianos -c <collection> --file <input file> 
+
+
+
+
+
+
+
+Export collection
+
+MONGOLAB
+mongoexport -h dbh56.mongolab.com:27567 -d pianos -c <collection> -u pintwister -p pitboss -o <output file> 
+
+LOCALHOST
+mongoexport -h localhost -d pianos -c <collection> -o <output file> 

@@ -1,0 +1,313 @@
+#AddNewText
+{
+position:absolute; top: 20px; left:400px;
+font-size : 12pt; 
+font-weight : bold;
+}
+
+#fnameLabel
+{
+position:absolute; top: 130px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.fnameInput
+{
+position:absolute; top: 145px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#lnameLabel
+{
+position:absolute; top: 130px; left: 477px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.lnameInput
+{
+position:absolute; top: 145px; left: 477px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#feeLabel
+{
+position:absolute; top: 130px; left: 776px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.feeInput
+{
+position:absolute; top: 145px; left: 776px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#stnoLabel
+{
+position:absolute; top: 170px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.stnoInput
+{
+position:absolute; top: 185px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#stnmLabel
+{
+position:absolute; top: 170px; left: 314px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.stnmInput
+{
+position:absolute; top: 185px; left: 314px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#cityLabel
+{
+position:absolute; top: 210px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.cityInput
+{
+position:absolute; top: 225px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#stateLabel
+{
+position:absolute; top: 210px; left: 390px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.stateInput
+{
+position:absolute; top: 225px; left: 390px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#zipLabel
+{
+position:absolute; top: 210px; left: 462px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.zipInput
+{
+position:absolute; top: 225px; left: 462px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#phoneLabel
+{
+position:absolute; top: 250px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#phoneInput
+{
+position:absolute; top: 265px; left: 180px;
+}
+
+.phone1
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.phone2
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.phone3
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+#landlineLabel
+{
+position:absolute; top: 250px; left: 480px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#landlineInput
+{
+position:absolute; top: 265px; left: 480px;
+}
+
+.landline1
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.landline2
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.landline3
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell1Label
+{
+position:absolute; top: 310px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#cell1Input
+{
+position:absolute; top: 325px; left: 180px;
+}
+
+.cell11
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.cell12
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.cell13
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell2Label
+{
+position:absolute; top: 310px; left: 480px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#cell2Input
+{
+position:absolute; top: 325px; left: 480px;
+}
+
+.cell21
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.cell22
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+.cell23
+{
+font-size: 12px;
+font-weight: bold;
+}
+
+#emailLabel
+{
+position:absolute; top: 370px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+.emailInput
+{
+position:absolute; top: 385px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#NextApptLabel
+{
+position:absolute; top: 130px; left: 860px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#NextApptInput
+{
+position:absolute; top: 145px; left: 1040px;
+}
+
+.NextApptInput
+{
+position:absolute; top: 145px; left: 860px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+
+#commentsLabel
+{
+position:absolute; top: 430px; left: 180px;
+font-size : 8pt; 
+font-weight : bold;
+}
+
+#commentsInput
+{
+position:absolute; top: 445px; left: 180px;
+}
+
+.addRecordButton
+{
+position:absolute; top: 550px; left: 410px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.returnButton
+{
+position:absolute; top: 550px; left: 480px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+

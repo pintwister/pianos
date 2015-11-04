@@ -1,0 +1,446 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML><HEAD><TITLE>Loan Calculator</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content=63550,63160 name=keywords>
+
+<style type="text/css">
+
+input
+{
+background: #dddddd;
+}
+
+select
+{
+background: #dddddd;
+}
+
+.calculate
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.Clearcalculate
+{
+position:absolute; top: 320px; left: 468px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+</style>
+
+<script type="text/javascript"> function setfocus() { document.forms[0].lAmount.focus() } 
+</script> 
+
+<SCRIPT language=JavaScript>
+
+
+//   Do a word search for TWEEK SPOT to find where to tweek the factors
+//   to match your system
+//   There are 4 places where this must be done
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function calcTerm()
+{
+//	Calculate term of loan(T) given principal (P),
+//	interest (I), monthly payment (M) and balloon payment (B)
+//	using the following formula: 
+//	N = Math.log(P * I / monthlyamount + 1) / Math.log(1 + I);
+	P = parseFloat(stripChar(document.loaner.lAmount.value, ","));
+	I = parseFloat(stripChar(document.loaner.lRate.value, ","));
+	B = parseFloat(stripChar(document.loaner.lBalloon.value, ","));
+	M = parseFloat(stripChar(document.loaner.lMonthly.value, ","));
+	
+
+//	if rate, payment or principal are zero, it's a problem
+//	if any of the values are negative, it's a problem
+//	if any of the values are not numeric, it's a problem
+	if (M == 0 || I == 0 || P == 0)
+		alert("Interest Rate, Loan Amount and Monthly Payment are necessary for this calculation");
+	else if (M < 0 || P < 0 || I < 0 || B < 0)
+		alert("Please use positive amounts");
+	else if (isNumeric(document.loaner.lMonthly.value)
+		&& isNumeric(document.loaner.lRate.value)
+		&& isNumeric(document.loaner.lAmount.value))
+	{
+	
+//    TWEEK SPOT  1
+ 
+  	      if (document.loaner.disability.value == "S" || document.loaner.disability.value == "B")
+		{ I += 3.36; }
+		else if (document.loaner.disability.value == "J")
+		{ I += 6.396; }
+		
+		if (document.loaner.creditlife.value == "S" || document.loaner.creditlife.value == "B")
+		{ I += 0.648; }
+		else if (document.loaner.creditlife.value == "J")
+		{ I += 1.032; }
+		
+		MIR=I/1200;	
+		x=Math.abs(-M+MIR*B);
+		y=Math.abs(-M+MIR*P);
+		N = (((Math.log(x)) - (Math.log(y)))/ (Math.log(1+MIR)))/12;
+		document.loaner.lTerm.value = "" + Math.round(N * 100)/100;
+	}
+	else
+		alert("Please enter numbers in the form 125000 or 8.20");
+}
+function calcInterest()
+{
+	P = parseFloat(stripChar(document.loaner.lAmount.value, ","));
+	M = parseFloat(stripChar(document.loaner.lMonthly.value, ","));
+	t = parseFloat(stripChar(document.loaner.lTerm.value, ","));
+	var i = .01;
+		var interval = .005;
+		var lastchange = true;
+		while (Math.abs(M*(Math.pow(1 + i,(t)*12)-1)/i - P) > 1) {
+			if ((M*(Math.pow(1 + i,(t)*12)-1)/i) < P) {
+				i = i + interval;
+				if (lastchange == false) interval = interval / 2;
+				lastchange = true;
+			}
+			if ((M*(Math.pow(1 + i,(t)*12)-1)/i) > P) {
+				i = i - interval;
+				if (lastchange == true) interval = interval / 2;
+				lastchange = false;
+			}
+		}
+		alert(P);
+	}
+function calcMonthly()
+{
+//	Calculate monthly payment (M) given principal (P),
+//	interest (I), number of months (N) and balloon payment (B)
+//	using the following formula: 
+//	M = (P - (B * (1+(I/1200))^-N)) * ((I/1200)/(1-(1+(I/1200))^-N))
+	t = parseFloat(stripChar(document.loaner.lTerm.value, ","));
+	P = parseFloat(stripChar(document.loaner.lAmount.value, ","));
+	I = parseFloat(stripChar(document.loaner.lRate.value, ","));
+	B = parseFloat(stripChar(document.loaner.lBalloon.value, ","));
+//	if term or rate or principal are zero, it's a problem
+//	if any of the values are negative, it's a problem
+//	if any of the values are not numeric, it's a problem
+	if (t == 0 || I == 0 || P == 0)
+		alert("Loan Term, Interest Rate and Loan Amount are necessary for this calculation");
+	else if (t < 0 || P < 0 || I < 0 || B < 0)
+		alert("Please use positive amounts");
+	else if (isNumeric(document.loaner.lTerm.value)
+		&& isNumeric(document.loaner.lRate.value)
+		&& isNumeric(document.loaner.lAmount.value))
+	{
+
+//    TWEEK SPOT  2
+
+		if (document.loaner.disability.value == "S" || document.loaner.disability.value == "B")
+		{ I += 3.36; }
+		else if (document.loaner.disability.value == "J")
+		{ I += 6.396; }
+		
+		if (document.loaner.creditlife.value == "S" || document.loaner.creditlife.value == "B")
+		{ I += 0.648; }
+		else if (document.loaner.creditlife.value == "J")
+		{ I += 1.032; }
+		
+		N = t;
+		x = I / 1200;
+		y = Math.pow((x + 1), -N);
+		m = (P - B * y) * x /(1 - y);
+		document.loaner.lMonthly.value = "" + Math.round(m * 100)/100;
+	}
+	else
+		alert("Please enter numbers in the form 125000 or 8.20");
+}
+function calcPrincipal()
+{
+//	Calculate principal (P) given monthly payment (M),
+//	interest (I), number of months (N) and balloon payment (B)
+//	using the following formula: 
+//	P = M * ((1-(1+(I/1200))^-N)/(I/1200)) + (B * (1+(I/1200))^-N))
+	t = parseFloat(stripChar(document.loaner.lTerm.value, ","));
+	I = parseFloat(stripChar(document.loaner.lRate.value, ","));
+	B = parseFloat(stripChar(document.loaner.lBalloon.value, ","));
+	M = parseFloat(stripChar(document.loaner.lMonthly.value, ","));
+//	if term or rate or monthly payment are zero, it's a problem
+//	if any of the values are negative, it's a problem
+//	if any of the values are not numeric, it's a problem
+	if (t == 0 || I == 0 || M == 0)
+		alert("Loan Term, Interest Rate and Monthly Payment are necessary for this calculation");
+	else if (t < 0 || I < 0 || B < 0 || M < 0)
+		alert("Please use positive amounts");
+	else if (isNumeric(document.loaner.lTerm.value) && isNumeric(document.loaner.lRate.value)
+		&& isNumeric(document.loaner.lMonthly.value))
+	{
+
+//    TWEEK SPOT  3
+
+		if (document.loaner.disability.value == "S" || document.loaner.disability.value == "B")
+		{ I += 3.36; }
+		else if (document.loaner.disability.value == "J")
+		{ I += 6.396; }
+		
+		if (document.loaner.creditlife.value == "S" || document.loaner.creditlife.value == "B")
+		{ I += 0.648; }
+		else if (document.loaner.creditlife.value == "J")
+		{ I += 1.032; }
+		
+		N = t ;
+		x = I / 1200;
+		y = Math.pow((x + 1), -N);
+		document.loaner.lAmount.value =  Math.round((M * (1 - y)/x + (B * y)) * 100) / 100;
+	}
+	else
+		alert("Please enter numbers in the form 125000 or 8.20");
+}   
+function calcBalloon()
+{
+//	Calculate balloon payment (B) given principal (P),
+//	monthly payment (M), interest (I) and number of months
+//	(N) using the following formula: 
+//	B = (P - M * ((1-(1+(I/1200))^-N)/(I/1200)) * ((1+(I/1200))^-N))
+	t = parseFloat(stripChar(document.loaner.lTerm.value, ","));
+	I = parseFloat(stripChar(document.loaner.lRate.value, ","));
+	P = parseFloat(stripChar(document.loaner.lAmount.value, ","));
+	M = parseFloat(stripChar(document.loaner.lMonthly.value, ","));
+//	if term or rate or monthly payment are zero, it's a problem
+//	if any of the values are negative, it's a problem
+//	if any of the values are not numeric, it's a problem
+	if (t == 0 || I == 0 || P == 0 || M == 0)
+		alert("Loan Term, Interest Rate, Loan Amount and Monthly Payment are necessary for this calculation");
+	else if (t < 0 || I < 0 || P < 0 || M < 0)
+		alert("Please use positive amounts");
+	else if (isNumeric(document.loaner.lTerm.value) && isNumeric(document.loaner.lRate.value)
+	&& isNumeric(document.loaner.lAmount.value) && isNumeric(document.loaner.lMonthly.value))
+	{
+
+//    TWEEK SPOT  4
+
+		if (document.loaner.disability.value == "S" || document.loaner.disability.value == "B")
+		{ I += 3.36; }
+		else if (document.loaner.disability.value == "J")
+		{ I += 6.396; }
+		
+		if (document.loaner.creditlife.value == "S" || document.loaner.creditlife.value == "B")
+		{ I += 0.648; }
+		else if (document.loaner.creditlife.value == "J")
+		{ I += 1.032; }
+	
+		N = t ;
+		x = I / 1200;
+		y = Math.pow((x + 1), -N);
+		b = (P - (M * (1 - y) / x)) / y;
+		document.loaner.lBalloon.value = Math.round(b * 100) / 100;
+	}
+	else
+		alert("Please enter numbers in the form 125000 or 8.20");
+}   
+function stripChar(inString, stripThis)
+{
+	outString="";
+	x = 0;
+	if (inString.charAt(x) == "$")
+		x = 1;
+	for (; x < inString.length; x++)
+	{
+		temp = inString.charAt(x);
+		if (temp != stripThis)
+			outString = outString + temp;
+	}
+	return (outString);
+}
+function isNumeric(inString)
+{
+	if (inString.length==0) 
+		return (false);
+	refString="1234567890,.$";
+	for (x = 0; x < inString.length; x++)
+		if (refString.indexOf(inString.charAt (x)) == -1)  
+			return (false);
+	return (true);
+}
+function resetValues()
+{
+	document.loaner.lTerm.value="0";
+	document.loaner.lRate.value="0";
+	document.loaner.lAmount.value="0";
+	document.loaner.lBalloon.value="0";
+	document.loaner.lMonthly.value="0";
+}
+
+lBalloon="0"
+//-->
+</SCRIPT>
+<!--point to javascript preload script -->
+<SCRIPT language=JavaScript type=text/javascript>
+<!--
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript type=text/javascript>
+<!--
+if(window.event + "" == "undefined") event = null;
+function HM_f_PopUp(){return false};
+function HM_f_PopDown(){return false};
+popUp = HM_f_PopUp;
+popDown = HM_f_PopDown;
+HM_PG_MenuWidth = 175;
+HM_PG_FontFamily = "Verdana,sans-serif";
+HM_PG_FontSize = 7;
+HM_PG_FontBold = 0;
+HM_PG_FontItalic = 0;
+HM_PG_FontColor = "black";
+HM_PG_FontColorOver = "black";
+HM_PG_BGColor = "#E8EBE2";
+HM_PG_BGColorOver = "white";
+HM_PG_ItemPadding = 3;
+HM_PG_BorderWidth = 1;
+HM_PG_BorderColor = "#333333";
+HM_PG_BorderStyle = "solid";
+HM_PG_SeparatorSize = 1;
+HM_PG_SeparatorColor = "#333333";
+HM_PG_ImageSrc = "/HM_Elements/HM_More_black_right.gif";
+HM_PG_ImageSrcLeft = "/HM_Elements/HM_More_black_left.gif";
+HM_PG_ImageSrcOver = "/HM_Elements/HM_More_black_right.gif";
+HM_PG_ImageSrcLeftOver = "/HM_Elements/HM_More_black_left.gif";
+HM_PG_ImageSize = 5;
+HM_PG_ImageHorizSpace = 0;
+HM_PG_ImageVertSpace = 2;
+HM_PG_KeepHilite = true; 
+HM_PG_ClickStart = 0;
+HM_PG_ClickKill = false;
+HM_PG_ChildOverlap = 4;
+HM_PG_ChildOffset = 4;
+HM_PG_ChildPerCentOver = null;
+HM_PG_TopSecondsVisible = .5;
+HM_PG_StatusDisplayBuild =0;
+HM_PG_StatusDisplayLink = 0;
+HM_PG_UponDisplay = null;
+HM_PG_UponHide = null;
+HM_PG_RightToLeft = 0;
+HM_PG_CreateTopOnly = 0;
+HM_PG_ShowLinkCursor = 1;
+HM_PG_NSFontOver = true;
+//-->
+</SCRIPT>
+
+</head>
+<body bgcolor="#eeeeee" onload=setfocus()>
+
+
+<DIV id=sidenav 
+style="Z-INDEX: 12; LEFT: 10px; WIDTH: 97px; POSITION: absolute; TOP: 96px">
+<TABLE height="100%" cellSpacing=0 cellPadding=0 width=750 border=0>
+  <TBODY>
+  <TR><A name=top></A>
+    <TD vAlign=top><!--VERTICAL SPACE FOR LAYER BASED HEADER -->
+      <TABLE height=15 cellSpacing=0 cellPadding=0 width=750 border=0>
+        <TBODY>
+        <TR>
+          <TD></TD></TR></TBODY></TABLE><!--END VERTICAL SPACE FOR HEADER -->
+
+      <TABLE height=360 cellSpacing=0 cellPadding=0 width="100%" align=right 
+      border=0>
+        <TBODY>
+        <TR>       
+          <TD vAlign=top><!--BEGIN CONTENT TABLE HERE-->
+
+            <TABLE class=CEFbody cellSpacing=0 cellPadding=0 width=638 
+              border=0><TBODY>
+
+                  <FORM name="loaner" method="post" action="">
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width="100%" colSpan=3>
+                        <DIV align=center>
+                        <CENTER>
+                        <TABLE cellSpacing=0 cellPadding=2 border=0>
+                          <TBODY>
+                          
+                          <TR>
+                            <TD align=right><B>Loan Amount ($)</B></TD>
+                            <TD align=right><IMG height=42 width=4></TD>
+                            <TD align=right>
+                              <DIV align=left>
+                              <INPUT size=12 onfocus=select() value=0 name=lAmount tabindex=1 > 
+                              </DIV></TD>
+                            <TD align=left><INPUT class="calculate"  onclick=calcPrincipal() type=button value=Calculate name=button> 
+                            </TD></TR>
+                            <TD align=right width=160><B>Loan Term 
+                            (Months)</B></TD>
+                            <TD align=right width=4><IMG height=42 width=4></TD>
+                            <TD align=right>
+                              <DIV align=left>
+                              <INPUT size=12 onfocus=select() value=0 name=lTerm tabindex=2> 
+                              </DIV></TD>
+                            <TD align=left><input class="calculate"  onclick=calcTerm() type=button value=Calculate name=button>
+                            </TD></TR>
+                          <TR>
+                            <TD align=right><B>Interest Rate (%)</B></TD>
+                            <TD align=right width=4> <IMG height=42 width=4></TD>
+                            <TD align=right>
+                              <DIV align=left>
+                              <INPUT size=12 onfocus=select() value=0 name=lRate tabindex=3> 
+                              </DIV></TD>
+                          <TR>
+                            <TD align=right height=0><B>Balloon <BR>Payment 
+                              ($)</B></TD>
+                            <TD align=right width=4><IMG height=42 width=4></TD>
+                            <TD align=right>
+                              <DIV align=left>
+                              <INPUT size=12 onfocus=select() value=0 name=lBalloon tabindex=4> 
+                              </DIV></TD>
+                            <TD align=left><INPUT class="calculate"  onclick=calcBalloon() type=button value=Calculate name=button> 
+                            </TD></TR>
+                          <TR>
+                            <TD align=right><STRONG>Disability 
+                              Insurance**</STRONG> </TD>
+                            <TD align=right>&nbsp;</TD>
+                            <TD align=left><SELECT id=disability 
+                              name=disability> <OPTION value=N 
+                                selected>None</OPTION> <OPTION 
+                                value=S>Single</OPTION> <OPTION 
+                                value=J>Joint</OPTION></SELECT> </TD>
+                            </TR>
+                          <TR>
+                            <TD align=right><STRONG>Credit Life Insurance** 
+                              </STRONG></TD>
+                            <TD align=right>&nbsp;</TD>
+                            <TD align=left><SELECT id=creditlife 
+                              name=creditlife> <OPTION value=N 
+                                selected>None</OPTION> <OPTION 
+                                value=S>Single</OPTION> <OPTION 
+                                value=J>Joint</OPTION></SELECT></TD></TR>
+                          <TR>
+                            <TD align=right><B>Monthly <BR><NOBR>Payment 
+                              ($)</NOBR></B><NOBR></NOBR></TD>
+                            <TD align=right width=4><IMG height=42 width=4></TD>
+                            <TD align=right>
+                              <DIV align=left>
+                              <INPUT size=12 onfocus=select() value=0 name=lMonthly tabindex=5> 
+                              </DIV></TD>
+                            <TD align=left><INPUT class="calculate"  onclick=calcMonthly() type=button value=Calculate name=button> 
+                            </TD></TR></TBODY></TABLE>
+                          
+
+ <div> <br><br>                          
+                        <INPUT   onclick=resetValues() type=button value=Clear name=button calculator? this>
+                        <input   type="button" value="Main Menu" onClick="window.location='admin.php'">
+                        <input   type="button" value="Back" onClick="window.location='special.php'">
+</div>
+ 
+                        
+</body>
+

@@ -1,0 +1,21 @@
+.AddNewLink
+{
+position:absolute; top: 130px; left: 420px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.ListLink
+{
+position:absolute; top: 150px; left: 420px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.MainButton
+{
+position:absolute; top: 180px; left: 430px;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+

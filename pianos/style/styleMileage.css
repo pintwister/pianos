@@ -1,0 +1,57 @@
+#GreaterThanText
+{
+position:absolute; top: 84px; left: 160px;
+}
+
+#GreaterThanInput
+{
+position:absolute; top: 80px; left: 325px;
+}
+
+.smonth
+{
+font-size: 10px;
+font-weight: bold;
+}
+
+.sday
+{
+font-size: 10px;
+font-weight: bold;
+}
+
+.syear
+{
+font-size: 10px;
+font-weight: bold;
+}
+
+#LessThanText
+{
+position:absolute; top: 84px; left: 485px;
+}
+
+#LessThanInput
+{
+position:absolute; top: 80px; left: 632px;
+}
+
+.tmonth
+{
+font-size: 10px;
+font-weight: bold;
+}
+
+.tday
+{
+font-size: 10px;
+font-weight: bold;
+}
+
+.tyear
+{
+font-size: 10px;
+font-weight: bold;
+}
+
+

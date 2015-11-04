@@ -1,0 +1,96 @@
+#CarryOverText
+{
+position:absolute; top: 30px; left: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#AddNewText
+{
+position:absolute; top: 20px; left:400px;
+font-size : 12pt; 
+font-weight : bold;
+}
+
+
+#ServiceDateLabel
+{
+position:absolute; top: 130px; left: 180px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#ServiceDateInput
+{
+position:absolute; top: 145px; left: 180px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+#ServRecLabel
+{
+position:absolute; top: 175px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.ServRecInput
+{
+position:absolute; top: 190px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+text-align: right;
+}
+
+#CheckLabel
+{
+position:absolute; top: 220px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.CheckInput
+{
+position:absolute; top: 235px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#CommentsLabel
+{
+position:absolute; top: 315px; left: 180px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#CommentsInput
+{
+position:absolute; top: 330px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.SubmitButton
+{
+position:absolute; top: 410px; left: 390px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.CancelButton
+{
+position:absolute; top: 410px; left: 470px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+

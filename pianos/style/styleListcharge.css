@@ -1,0 +1,33 @@
+#clicktext
+{
+position:absolute; top: 30px; left: 360px;
+width: 500px;
+height: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#main
+{
+position:absolute; top: 80px; left: 310px;
+overflow: auto;
+font-size: 14px;
+font-weight: bold;
+width: 350px; height: 300px;
+}
+
+.link
+{
+position:absolute; left: 98;
+width: 200px;
+}
+
+.MainButton
+{
+position:absolute; top: 400px; left: 433px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+

@@ -1,0 +1,815 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD><TITLE></TITLE>
+
+<STYLE type=text/css>
+
+.L400
+{
+width: 165px;
+FONT-WEIGHT: 400; 
+FONT-SIZE: 8.5pt;
+COLOR: BLACK; 
+FONT-STYLE: normal; 
+FONT-FAMILY: "MS Sans Serif" , sans-serif; 
+TEXT-ALIGN: left;
+}
+.L700
+{
+width: 165px;
+FONT-WEIGHT: 700; 
+FONT-SIZE: 8.5pt;
+COLOR: BLACK; 
+FONT-STYLE: normal; 
+FONT-FAMILY: "MS Sans Serif" , sans-serif; 
+TEXT-ALIGN: left;
+}
+
+.R400
+{
+width: 165px;
+FONT-WEIGHT: 400; 
+FONT-SIZE: 8.5pt;
+COLOR: BLACK; 
+FONT-STYLE: normal; 
+FONT-FAMILY: "MS Sans Serif" , sans-serif; 
+TEXT-ALIGN: right;
+}
+.R700
+{
+width: 165px;
+FONT-WEIGHT: 700; 
+FONT-SIZE: 8.5pt;
+COLOR: BLACK; 
+FONT-STYLE: normal; 
+FONT-FAMILY: "MS Sans Serif" , sans-serif; 
+TEXT-ALIGN: right;
+}
+
+#PaneOne
+{
+position: absolute; top:85px; left:10px;
+width: 280px; height:200px;
+border: 1px black solid;
+}
+
+#PaneOneA
+{
+position: absolute; top:70px; left:95px;
+border: 0px black solid;
+}
+#PaneOneB
+{
+position: absolute; top:90px; left:15px;
+border: 0px black solid;
+}
+#PaneOneC
+{
+position: absolute; top:120px; left:15px;
+border: 0px black solid;
+}
+#PaneOneD
+{
+position: absolute; top:150px; left:15px;
+border: 0px black solid;
+}
+#PaneOneE
+{
+position: absolute; top:180px; left:15px;
+border: 0px black solid;
+}
+#PaneOneF
+{
+position: absolute; top:210px; left:15px;
+border: 0px black solid;
+}
+#PaneOneG
+{
+position: absolute; top:240px; left:15px;
+border: 0px black solid;
+}
+#PaneOneH
+{
+position: absolute; top:270px; left:15px;
+border: 0px black solid;
+}
+
+#PaneTwo
+{
+position: absolute; top:341px; left:10px;
+width: 280px; height:115px;
+border: 1px black solid;
+}
+
+#PaneTwoA
+{
+position: absolute; top:326px; left:95px;
+border: 0px black solid;
+}
+#PaneTwoB
+{
+position: absolute; top:346px; left:15px;
+border: 0px black solid;
+}
+#PaneTwoC
+{
+position: absolute; top:376px; left:15px;
+border: 0px black solid;
+}
+#PaneTwoD
+{
+position: absolute; top:406px; left:15px;
+border: 0px black solid;
+}
+#PaneTwoE
+{
+position: absolute; top:436px; left:15px;
+border: 0px black solid;
+}
+#PaneThree
+{
+position: absolute; top:85px; left:300px;
+width: 280px; height:231px;
+border: 1px black solid;
+}
+#PaneThreeA
+{
+position: absolute; top:70px; left:380px;
+border: 0px black solid;
+}
+#PaneThreeB
+{
+position: absolute; top:90px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeC
+{
+position: absolute; top:111px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeD
+{
+position: absolute; top:132px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeE
+{
+position: absolute; top:153px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeF
+{
+position: absolute; top:174px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeG
+{
+position: absolute; top:195px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeH
+{
+position: absolute; top:216px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeI
+{
+position: absolute; top:237px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeJ
+{
+position: absolute; top:258px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeK
+{
+position: absolute; top:279px; left:305px;
+border: 0px black solid;
+}
+#PaneThreeL
+{
+position: absolute; top:300px; left:305px;
+border: 0px black solid;
+}
+#PaneFour
+{
+position: absolute; top:341px; left:300px;
+width: 280px; height:213px;
+border: 1px black solid;
+}
+#PaneFourA
+{
+position: absolute; top:326px; left:380px;
+border: 0px black solid;
+}
+#PaneFourB
+{
+position: absolute; top:345px; left:305px;
+border: 0px black solid;
+}
+#PaneFourC
+{
+position: absolute; top:366px; left:305px;
+border: 0px black solid;
+}
+#PaneFourD
+{
+position: absolute; top:387px; left:305px;
+border: 0px black solid;
+}
+#PaneFourE
+{
+position: absolute; top:408px; left:305px;
+border: 0px black solid;
+}
+#PaneFourF
+{
+position: absolute; top:429px; left:305px;
+border: 0px black solid;
+}
+#PaneFourG
+{
+position: absolute; top:450px; left:305px;
+border: 0px black solid;
+}
+#PaneFourH
+{
+position: absolute; top:471px; left:305px;
+border: 0px black solid; width:175px;
+}
+#PaneFourI
+{
+position: absolute; top:492px; left:305px;
+border: 0px black solid;
+}
+#PaneFourJ
+{
+position: absolute; top:513px; left:305px;
+border: 0px black solid; width:175px;
+}
+#PaneFourK
+{
+position: absolute; top:535px; left:305px;
+border: 0px black solid;
+}
+
+
+
+
+
+#PaneFive
+{
+position: absolute; top:476px; left:35px;
+}
+
+.calculate
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.PayMainButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.PayBackButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+</STYLE>
+
+            <SCRIPT language=javascript type=text/javascript>
+//<![CDATA[
+
+
+var co = new Object;
+function recalc_onclick(ctl) {
+ if (ctl=='') {
+
+co.p1DA=eeparseFloatTh(document.formc.p1DA.value); 
+
+co.p1D5=eeparseFloatTh(document.formc.p1D5.value); 
+co.p1D6=eeparseFloatTh(document.formc.p1D6.value);
+co.p1D7=eeparsePercent(document.formc.p1D7.value);
+co.p1D8=eeparseFloatTh(document.formc.p1D8.value);
+co.p1D11=eeparseFloatTh(document.formc.p1D11.value);
+co.p1D12=eeparsePercent(document.formc.p1D12.value);
+co.p1D15=eeparseFloatTh(document.formc.p1D15.value);
+co.p1D16=eeparseFloatTh(document.formc.p1D16.value);
+co.p1D17=eeparsePercent(document.formc.p1D17.value);
+co.p1D18=eeparseFloatTh(document.formc.p1D18.value);
+calc(co);
+
+document.formc.p1DA1.value=eedisplayFloatNDTh(co.p1DA1,2);
+document.formc.p1DB.value=eedisplayFloatNDTh(co.p1DB,2);
+document.formc.p1DC.value=eedisplayFloatNDTh(co.p1DC,2);
+
+
+document.formc.p1D24.value=eedisplayFloatNDTh(co.p1D24,2);
+document.formc.p1D25.value=eedisplayFloatNDTh(co.p1D25,2);
+document.formc.p1D26.value=eedisplayFloatNDTh(co.p1D26,2);
+document.formc.p1D27.value=eedisplayFloatNDTh(co.p1D27,2);
+document.formc.p1D28.value=eedisplayFloatNDTh(co.p1D28,2);
+document.formc.p1D29.value=eedisplayFloatNDTh(co.p1D29,2);
+document.formc.p1D30.value=eedisplayFloatNDTh(co.p1D30,2);
+document.formc.p1D31.value=eedisplayFloatNDTh(co.p1D31,2);
+document.formc.p1D34.value=eedisplayFloatNDTh(co.p1D34,2);
+document.formc.p1D35.value=eedisplayFloatNDTh(co.p1D35,2);
+document.formc.p1D37.value=eedisplayFloatNDTh(co.p1D37,2);
+document.formc.p1D38.value=eedisplayFloatNDTh(co.p1D38,2);
+document.formc.p1D39.value=eedisplayFloatNDTh(co.p1D39,2);
+document.formc.p1D40.value=eedisplayFloatNDTh(co.p1D40,2);
+document.formc.p1D41.value=eedisplayFloatNDTh(co.p1D41,2);
+document.formc.p1D42.value=eedisplayFloatNDTh(co.p1D42,2);
+document.formc.p1D43.value=eedisplayFloatNDTh(co.p1D43,2);
+document.formc.p1D44.value=eedisplayFloatNDTh(co.p1D44,2);
+};
+};
+
+
+var eeisus=1;
+var eetrue="TRUE";
+var eefalse="FALSE";
+var eedec=".";
+var eeth=",";
+var eedecreg=new RegExp("[.]","g");
+var eethreg=new RegExp(",","g");
+
+function calc(data){
+
+var c1DA=data.p1DA;
+var c1DB=data.p1DB;
+var c1DC=data.p1DC;
+
+var c1D5=data.p1D5;
+var c1D6=data.p1D6;
+var c1D7=data.p1D7;
+var c1D8=data.p1D8;
+var c1D11=data.p1D11;
+var c1D12=data.p1D12;
+var c1D15=data.p1D15;
+var c1D16=data.p1D16;
+var c1D17=data.p1D17;
+var c1D18=data.p1D18;
+
+var c1DA=(c1DA);
+var c1DB=(c1DB);
+var c1DC=(c1DC);
+
+var c1D24=(((c1D6)*(c1D7)));
+var c1D25=(((((c1D6)-(c1D11)))+(c1D24)+(c1DA)));
+
+// var c1D26=(((pmt((((c1D12)/(12))),(((c1D8)*(12))),(c1D25),(0),(0)))*(-1)));
+   var c1D26=(((pmt((((c1D12)/(12))),(((c1D8))),(c1D25),(0),(0)))*(-1)));
+
+// var c1D27=(((((c1D26)*(12)))*(c1D8)));
+   var c1D27=(((((c1D26)))*(c1D8)));
+
+var c1D28=(((c1D27)+(c1D11)));
+var c1D29=(((c1D5)*(c1D17)));
+var c1D34=(((c1D16)*(c1D7)));
+var c1D35=(((((c1D34)+(c1D16)))+(c1D15)));
+var c1D37=(((((c1D6)+(c1D15)))-(c1D11)+(c1DA)));
+var c1D38=(((c1D5)*(c1D17)));
+
+// var c1D40=(((((((((c1D37)+(c1D38)))*(c1D18)))*(c1D8)))*(12)));
+   var c1D40=(((((((((c1D37)+(c1D38)))*(c1D18)))*(c1D8)))));
+
+var c1D30=(((c1D28)-(c1D29)));
+
+// var c1D31=(((c1D30)/(((c1D8)*(12)))));
+   var c1D31=(((c1D30)/(((c1D8)))));
+
+var c1D39=(((c1D37)-(c1D38)));
+
+// var c1D41=(((((((c1D39)+(c1D40)))/(((c1D8)*(12)))))*(((1)+(c1D7)))));
+   var c1D41=(((((((c1D39)+(c1D40)))/(((c1D8)))))*(((1)+(c1D7)))));
+
+// var c1D42=(((((c1D41)*(12)))*(c1D8)));
+   var c1D42=(((((c1D41)))*(c1D8)));
+
+var c1D43=(((c1D42)+(c1D35)));
+
+// var c1D44=(((c1D43)/(((c1D8)*(12)))));
+   var c1D44=(((c1D43)/(((c1D8)))));
+
+data.p1DA1=c1DA;
+data.p1DB=c1D6;
+data.p1DC=c1D11;
+
+data.p1D24=c1D24;
+data.p1D25=c1D25;
+data.p1D26=c1D26;
+data.p1D27=c1D27;
+data.p1D28=c1D28;
+data.p1D29=c1D29;
+data.p1D30=c1D30;
+data.p1D31=c1D31;
+data.p1D34=c1D34;
+data.p1D35=c1D35;
+data.p1D37=c1D37;
+data.p1D38=c1D38;
+data.p1D39=c1D39;
+data.p1D40=c1D40;
+data.p1D41=c1D41;
+data.p1D42=c1D42;
+data.p1D43=c1D43;
+data.p1D44=c1D44;
+};
+
+function myIsNaN(x){return(isNaN(x)||(typeof x=='number'&&!isFinite(x)));};
+function round(n,nd){if(isFinite(n)&&isFinite(nd)){var sign_n=(n<0)?-1:1;
+var abs_n=Math.abs(n);
+var factor=Math.pow(10,nd);
+return sign_n*Math.round(abs_n*factor)/factor;}else{return NaN;}};
+function eeparsePercent(str){var parts=String(str).split('%');
+var tmp=String(parts[0]).replace(eedecreg,".");
+var res=parseFloat(tmp)/100;
+if(isNaN(res)){return 0;}
+else{return res;}};
+function eedisplayFloatND(x,nd){if(myIsNaN(x)){return Number.NaN;}
+else{var res=round(x,nd);
+if(nd>0){var str=String(res);
+if(str.indexOf('e')!=-1)return str;
+if(str.indexOf('E')!=-1)return str;
+var parts=str.split('.');
+if(parts.length<2){var decimals=('00000000000000').substring(0,nd);
+return(parts[0]).toString()+eedec+decimals;}
+else{var decimals=((parts[1]).toString()+'00000000000000').substring(0,nd);
+return(parts[0]).toString()+eedec+decimals;}}
+else{return res;}}};
+function eedisplayPercentND(x,nd){if(myIsNaN(x)){return Number.NaN;}
+else{return eedisplayFloatND(x*100,nd)+'%';}}
+function eeparseFloatTh(str){str=String(str).replace(eethreg,"");
+str=String(str).replace(eedecreg,".");
+var res=parseFloat(str);
+if(isNaN(res)){return 0;}
+else{return res;}};
+function eedisplayFloatNDTh(x,nd){
+if(myIsNaN(x)){return Number.NaN;}
+else{var res=round(x,nd);
+if(nd>0){var str=String(res);
+if(str.indexOf('e')!=-1)return str;
+if(str.indexOf('E')!=-1)return str;
+var parts=str.split('.');
+var res2=eeinsertThousand(parts[0].toString());
+if(parts.length<2){var decimals=('00000000000000').substring(0,nd);
+return(res2+eedec+decimals);}
+else{var decimals=((parts[1]).toString()+'00000000000000').substring(0,nd);
+return(res2+eedec+decimals);}}
+else{return(eeinsertThousand(res.toString()));}}};
+function eeinsertThousand(whole){if(whole==""||whole.indexOf("e")>=0){return whole;}
+else{var minus_sign="";
+if(whole.charAt(0)=="-"){minus_sign="-";
+whole=whole.substring(1);};
+var res="";
+var str_length=whole.length-1;
+for(var ii=0;
+ii<=str_length;
+ii++){if(ii>0&&ii%3==0){res=eeth+res;};
+res=whole.charAt(str_length-ii)+res;};
+return minus_sign+res;}};
+function pmt(rate,nper,pv,fv,type){
+if(rate==0){return-pv/nper;}
+else{var pvif=Math.pow(1+rate,nper);
+var fvifa=(Math.pow(1+rate,nper)-1)/rate;
+var type1=(type!=0)?1:0;
+return((-pv*pvif-fv)/((1+rate*type1)*fvifa));}};
+
+function postcode(){};
+function eequerystring(){var querystring=document.location.search;
+if(querystring.length>0){variables=(querystring.substring(1)).split("&amp;");
+var variable;
+var key;
+var value;
+for(var ii=0;ii<variables.length;ii++){variable=variables[ii].split("=");
+key=unescape(variable[0]);
+value=unescape(variable[1]);
+if(document.formc[key]!=null){document.formc[key].value=value;}}}}
+function initial_update(){postcode('');
+eequerystring();recalc_onclick('');}
+//]]>
+</SCRIPT>
+
+
+<script type="text/javascript"> function setfocus() { document.forms[0].p1D5.focus() } 
+</script> 
+
+
+</HEAD>
+<BODY onload=initial_update();document.formc.p1D5.focus();>
+
+
+            <FORM id=formc name=formc action="" method=post>
+
+
+<DIV id=PaneOne></div>
+              <div class=L700 id=PaneOneA>
+                Purchase or Lease
+              </div>
+              <div class=L400 id=PaneOneB>
+                MSRP of Vehicle ($)
+              </div>
+              <div class=L400 id=PaneOneC>
+                Negotiated Price of Vehicle($)
+              </div>
+              <div class=L400 id=PaneOneD>
+                Non-Taxable Items ($)
+              </div>
+              <div class=L400 id=PaneOneE>
+                Sales Tax Rate (%)
+              </div>
+              <div class=L400 id=PaneOneF>
+                Term of Lease and Loan (Months)
+              </div>
+              <div class=L400 id=PaneOneG>
+                Down Payment ($)
+              </div>
+              <div class=L400 id=PaneOneH>
+                Annual Interest Rate (%)
+              </div>
+                            
+                 <INPUT class=R400 id=p1D5 
+                  onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('p1D5')" 
+                  style="position: absolute; top: 89px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=1 value=0.00 name=p1D5 onfocus=select()>
+                
+                <INPUT class=R400 id=p1D6 
+                  onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('p1D6')" 
+                  style="position: absolute; top: 119px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=2 value=0.00 name=p1D6 onfocus=select()>
+
+
+                <INPUT class=R400 id=p1DA 
+                  onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('p1DA')" 
+                  style="position: absolute; top: 149px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=3 value=0.00 name=p1DA onfocus=select()>
+
+
+                <INPUT class=R400 id=p1D7 
+                  onblur="this.value=eedisplayPercentND(eeparsePercent(this.value),1);recalc_onclick('p1D7')" 
+                  style="position: absolute; top: 179px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=4 value=6.0% name=p1D7 onfocus=select()>
+
+                
+                <INPUT class=R400 id=p1D8 
+                  onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),0);recalc_onclick('p1D8')" 
+                  style="position: absolute; top: 209px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=5 value=0 name=p1D8 onfocus=select()>
+
+                
+                <INPUT class=R400 id=p1D11 
+                  onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('p1D11')" 
+                  style="position: absolute; top: 239px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=6 value=0.00 name=p1D11 onfocus=select()>
+
+                
+                <INPUT class=R400 id=p1D12 
+                  onblur="this.value=eedisplayPercentND(eeparsePercent(this.value),3);recalc_onclick('p1D12')" 
+                  style="position: absolute; top: 269px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=7 value=0% name=p1D12 onfocus=select()>
+              
+<div id=PaneTwo></div>
+ 
+              <div class=L700 id=PaneTwoA>
+                Lease
+              </div>
+              <div class=L400 id=PaneTwoB>
+                Acquisition Fee ($)
+              </div>
+              <div class=L400 id=PaneTwoC>
+                Capitalized Cost Reduction ($)
+              </div>
+              <div class=L400 id=PaneTwoD>
+                Residual Value (%)
+              </div>
+              <div class=L400 id=PaneTwoE>
+                Money Factor
+              </div>
+                  
+                
+                <INPUT class=R400 id=p1D15 
+                  onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('p1D15')" 
+                  style="position: absolute; top: 345px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=8 value=0 name=p1D15 onfocus=select()>
+
+                
+                <INPUT class=R400 id=p1D16 
+                  onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),2);recalc_onclick('p1D16')" 
+                  style="position: absolute; top: 375px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=9 value=0 name=p1D16 onfocus=select()>
+
+                
+                <INPUT class=R400 id=p1D17 
+                  onblur="this.value=eedisplayPercentND(eeparsePercent(this.value),1);recalc_onclick('p1D17')" 
+                  style="position: absolute; top: 405px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=10 value=0% name=p1D17 onfocus=select()>
+
+                
+                <INPUT class=R400 id=p1D18 
+                  onblur="this.value=eedisplayFloatNDTh(eeparseFloatTh(this.value),5);recalc_onclick('p1D18')" 
+                  style="position: absolute; top: 435px; left: 185px; border: 0px solid black; width: 100px;"
+                  tabIndex=11 value=0.0 name=p1D18 onfocus=select()>
+           
+<DIV id=PaneThree></div>
+              
+              <div class=L700 id=PaneThreeA>
+                Results For a Purchase
+              </div>
+              <div class=L400 id=PaneThreeB>
+                Negotiated Price of Vehicle
+              </div>
+              <div class=L400 id=PaneThreeC>
+                Non-Taxable Items
+              </div>
+              <div class=L400 id=PaneThreeD>
+                Sales Tax
+              </div>
+              <div class=L400 id=PaneThreeE>
+               Down Payment
+              </div>
+              <div class=L400 id=PaneThreeF>
+                Net Amount Financed
+              </div>
+              <div class=L700 id=PaneThreeG>
+                Monthly Payment
+              </div>
+              <div class=L400 id=PaneThreeH>
+                Total Loan Payments
+              </div>
+              <div class=L400 id=PaneThreeI>
+                Total Payments
+              </div>
+              <div class=L400 id=PaneThreeJ>
+                Market Value of Vehicle
+              </div>
+              <div class=L400 id=PaneThreeK>
+                Total Cost of Ownership
+              </div>
+              <div class=L400 id=PaneThreeL>
+                Cost of Ownership ($ / Month)
+              </div>
+
+                <INPUT class=R400 id=p1DB
+                  style="position: absolute; top: 89px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0.00 name=p1DB>
+
+
+                <INPUT class=R400 id=p1DA1 
+                  style="position: absolute; top: 110px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0.00 name=p1DA1>
+
+                <INPUT class=R400 id=p1D24 
+                  style="position: absolute; top: 131px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D24>
+ 
+                <INPUT class=R400 id=p1DC 
+                  style="position: absolute; top: 152px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1DC>
+               
+
+                <INPUT class=R400 id=p1D25 
+                  style="position: absolute; top: 173px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D25>
+                
+
+                <INPUT class=R700 id=p1D26 
+                  style="position: absolute; top: 194px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D26>
+
+                
+                <INPUT class=R400 id=p1D27 
+                  style="position: absolute; top: 215px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D27>
+
+                
+                <INPUT class=R400 id=p1D28 
+                  style="position: absolute; top: 236px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D28>
+
+                
+                <INPUT class=R400 id=p1D29 
+                  style="position: absolute; top: 257px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D29>
+
+                
+                <INPUT class=R400 id=p1D30 
+                  style="position: absolute; top: 278px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D30>
+
+                
+                <INPUT class=R400 id=p1D31 
+                  style="position: absolute; top: 299px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D31>
+
+<div id=PaneFour></div>
+
+              <div class=L700 id=PaneFourA>
+                Results For a Lease
+              </div>
+              <div class=L400 id=PaneFourB>
+                Sales Tax on Down Payment
+              </div>
+              <div class=L400 id=PaneFourC>
+                Total Upfront Costs
+              </div>
+              <div class=L400 id=PaneFourD>
+                Net Capitalized Cost
+              </div>
+              <div class=L400 id=PaneFourE>
+                Residual Value
+              </div>
+              <div class=L400 id=PaneFourF>
+                Total Depreciation
+              </div>
+              <div class=L400 id=PaneFourG>
+                Finance or Rent Charge
+              </div>
+              <div class=L700 id=PaneFourH>
+                Monthly Lease Payment
+              </div>
+              <div class=L400 id=PaneFourI>
+                Total of all Lease Payment
+              </div>
+              <div class=L400 id=PaneFourJ>
+                Total of Lease and Upfront Costs
+              </div>
+              <div class=L400 id=PaneFourK>
+                Cost of Ownership ($ / Month)
+              </div>
+
+                                
+                <INPUT class=R400 id=p1D34 
+                  style="position: absolute; top: 345px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D34>
+
+                
+                <INPUT class=R400 id=p1D35 
+                  style="position: absolute; top: 366px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D35>
+
+                
+                <INPUT class=R400 id=p1D37 
+                  style="position: absolute; top: 387px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D37>
+
+                
+                <INPUT class=R400 id=p1D38 
+                  style="position: absolute; top: 408px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D38>
+
+                
+                <INPUT class=R400 id=p1D39 
+                  style="position: absolute; top: 429px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D39>
+
+                
+                <INPUT class=R400 id=p1D40 
+                  style="position: absolute; top: 450px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D40>
+
+                
+                <INPUT class=R700 id=p1D41 
+                  style="position: absolute; top: 471px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D41>
+
+                
+                <INPUT class=R400 id=p1D42 
+                  style="position: absolute; top: 492px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D42>
+
+                
+                <INPUT class=R400 id=p1D43 
+                  style="position: absolute; top: 513px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D43>
+
+                
+                <INPUT class=R400 id=p1D44 
+                  style="position: absolute; top: 534px; left: 492px; border: 0px solid black; width: 80px;"
+                  tabIndex=-1 readOnly value=0 name=p1D44>
+                
+
+<DIV id=PaneFive>
+            <input class=calculate onclick="recalc_onclick('')" type=button value=Calculate name=xl_update_bottom> 
+            <input class=PayMainButton type="button" value="Main Menu" onClick="window.location='admin.php'">
+            <input class=PayBackButton type="button" value="Back" onClick="window.location='special.php'">
+</div>
+
+            
+            </FORM><NOSCRIPT>The browser does not support JavaScript. The 
+            calculations will not work. Please access the web page using another 
+            browser.</NOSCRIPT>
+
+ 
+            
+      
+
+</BODY></HTML>

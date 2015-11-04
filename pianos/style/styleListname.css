@@ -1,0 +1,33 @@
+#ClickText
+{
+position:absolute; top: 30px; left: 500px;
+width: 500px;
+height: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#main
+{
+position:absolute; top: 60px; left: 340px;
+overflow: auto;
+font-size: 14px;
+font-weight: bold;
+width: 660px; height: 300px;
+}
+
+.NewSearchButton
+{
+position:absolute; top: 380px; left: 500px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+position:absolute; top: 380px; left: 620px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}

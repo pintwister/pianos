@@ -1,0 +1,156 @@
+body 
+{
+font-family : Times New Roman;
+font-size: 14;
+font-weight: normal; 
+}
+
+a
+{
+font: bold;
+color: #0000ff;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #ff0000;
+}
+
+input
+{
+color: #000000;
+background: transparent;
+}
+
+select
+{
+background: #dddddd;
+}
+
+#logout
+{
+position:absolute; top: 0px; left: 0px;
+}
+
+pre
+{
+background: transparent;
+font-family: arial;
+font-size: 14px;
+}
+
+#CarryOverText1
+{
+position:absolute; top: 30px; left: 20px;
+font-size: 14px;
+}
+
+
+#CommentsText
+{
+position:absolute; top: 155px; left: 20px;
+font-size: 14px;
+}
+
+
+#DateLabel
+{
+position:absolute; top: 260px; left: 56px;
+font-size: 14px;
+}
+
+#ServiceLabel
+{
+position:absolute; top: 260px; left: 199px;
+font-size: 14px;
+}
+
+#ServRecLabel
+{
+position:absolute; top: 260px; left: 340px;
+font-size: 14px;
+}
+
+#PartsRecLabel
+{
+position:absolute; top: 260px; left: 442px;
+font-size: 14px;
+}
+
+#CheckLabel
+{
+position:absolute; top: 260px; left: 564px;
+font-size: 14px;
+}
+
+#line
+{
+position:absolute; top: 275px; left: 20px;
+border-top: 1px solid black;
+width: 590px;
+}
+
+.link
+{
+position:absolute; left: 20px;
+width: 80px;
+}
+
+.ServiceLink
+{
+position:absolute; left: 80px;
+width: 164px;
+text-align: right;
+}
+
+.ServAmntLink
+{
+position:absolute; left: 320px;
+width: 70px;
+text-align: right;
+}
+
+.PartsAmntLink
+{
+position:absolute; left: 420px;
+width: 70px;
+text-align: right;
+}
+
+.CheckLink
+{
+position:absolute; left: 540px;
+width: 70px;
+text-align: right;
+}
+
+
+#PhoneText
+{
+position:absolute; top: 80px; left: 520px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#landlineText
+{
+position:absolute; top: 80px; left: 615px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell1Text
+{
+position:absolute; top: 95px; left: 520px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell2Text
+{
+position:absolute; top: 95px; left: 615px;
+font-size: 12px;
+font-weight: bold;
+}
+

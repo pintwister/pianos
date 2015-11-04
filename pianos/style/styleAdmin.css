@@ -1,0 +1,28 @@
+#main
+{
+width: 450px;
+position:absolute; top: 60px; left: 280px;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+color: #000000; 
+} 
+
+#menu 
+{
+width: 250px;
+padding-top: 50px;
+padding-left: 50px;
+text-align: left;
+font-size: 14px;
+font-weight: bold;
+} 
+
+.MainButton
+{
+position:absolute; top: 400px; left: 433px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+

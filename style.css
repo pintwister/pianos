@@ -1,0 +1,96 @@
+body
+{
+font-family: arial;
+}
+
+a:link   {  color: #00BFFF; } 
+a:visited   {  color: #00BFFF; } 
+
+.background
+{
+color: #ffffff;
+background: #777777;
+padding-top: 1%;
+padding-bottom: 1%;
+width: 70%; height: auto;
+whitespace: nowrap;
+position: relative; left: 0%; top: 0%;
+float: left;
+}
+
+.picture-box
+{
+text-align: center;
+color: #ffffff;
+background: transparent;
+width: 15%; height: auto;
+position: relative; left: 0%; top: 0%; 
+whitespace: nowrap;
+float: left;
+}
+
+.index-box1
+{
+color: #000000;
+background: #ffffff;
+width: 25%; height: auto;
+position: relative; left: 1%;
+whitespace: nowrap;
+float: left;
+}
+
+.index-box2
+{
+color: #ffffff;
+background: transparent;
+padding-top: 0%;
+padding-bottom: 2%;
+width: 35%; height: auto;
+position: relative; top: 3%; left: 3%;
+whitespace: nowrap;
+float: left;
+}
+
+.index-box3
+{
+background: transparent;
+width: 34%; height: auto;
+position: relative; top: 3%; left: 5%;
+whitespace: nowrap;
+float: left;
+}
+
+.bio-wrap
+{
+color: #ffffff;
+background: transparent;
+width: 80%;
+height:105%;
+overflow: scroll;
+position: absolute; top: 0%; right: 0%; 
+whitespace: nowrap;
+}
+
+.bio
+{
+color: #ffffff;
+background: transparent;
+width: 24%;
+height: auto;
+position: absolute; top: 0%; right: 1%; 
+whitespace: nowrap;
+}
+
+.menu
+{
+color: #ffffff;
+background: transparent;
+width: 20%;
+height: auto;
+position: absolute; top: 0%; left: 1%; 
+whitespace: nowrap;
+}
+
+
+
+

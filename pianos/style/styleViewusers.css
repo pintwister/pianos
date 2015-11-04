@@ -1,0 +1,139 @@
+#UserName
+{
+position:absolute; top: 130px; left: 380px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.UserNameText
+{
+font-size: 10px;
+width: 100px;
+}
+
+#Password
+{
+position:absolute; top: 170px; left: 380px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.PasswordText
+{
+font-size: 10px;
+width: 100px;
+}
+
+#Admin
+{
+position:absolute; top: 210px; left: 380px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.AdminText
+{
+font-size: 10px;
+width: 100px;
+}
+
+#FirstName
+{
+position:absolute; top: 250px; left: 380px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.FirstNameText
+{
+font-size: 10px;
+width: 100px;
+}
+
+#LastName
+{
+position:absolute; top: 290px; left: 380px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.LastNameText
+{
+font-size: 10px;
+width: 100px;
+}
+
+.DeleteButton
+{
+position:absolute; top: 370px; left: 380px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.BackButton
+{
+position:absolute; top: 370px; left: 446px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+position:absolute; top: 370px; left: 498px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.EditButton
+{
+position:absolute; top: 370px; left: 547px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+#AreYouSureText
+{
+position:absolute; top: 410px; left: 355px;
+color: red;
+font-size : 12px; 
+font-weight : bold;
+text-align: center;
+}
+
+.YesButton
+{
+
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.NoButton
+{
+
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

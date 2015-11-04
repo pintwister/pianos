@@ -1,0 +1,116 @@
+form
+{ 
+width: 254px; height: 500px;
+}
+
+
+#main
+{
+position:absolute; top: 80px; left: 80px;
+overflow: auto;
+font-size: 14px;
+font-weight: bold;
+width: 820px; height: 300px;
+}
+
+.counter
+{
+text-align: right;
+position:absolute; left: 5px;
+width: 20px;
+}
+
+.ldate
+{
+position:absolute; left: 60px;
+}
+
+.ndate
+{
+position:absolute; left: 162px;
+}
+
+.phone
+{
+position:absolute; left: 268px;
+}
+
+.city
+{
+position:absolute; left: 405px;
+}
+
+
+.name
+{
+position:absolute; left: 560px;
+}
+
+#headtext
+{
+position:absolute; top: 20px; left: 140px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headldate
+{
+position:absolute; top: 55px; left: 142px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headndate
+{
+position:absolute; top: 55px; left: 244px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headphone
+{
+position:absolute; top: 55px; left: 353px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headcity
+{
+position:absolute; top: 55px; left: 485px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headname
+{
+position:absolute; top: 55px; left: 640px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.PrintButton
+{
+position: absolute; top: 400px; left: 331px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+position:absolute; top: 400px; left: 420px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.BackButton
+{
+position:absolute; top: 400px; left: 565px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+

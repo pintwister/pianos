@@ -1,0 +1,149 @@
+.EntryText
+{
+position:absolute; top: 130px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.EntryDate
+{
+position:absolute; top: 130px; left: 520px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.Entry
+{
+position:absolute; top: 130px; left: 520px;
+}
+
+.StartText
+{
+position:absolute; top: 160px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.Start
+{
+position:absolute; top: 160px; left: 520px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.EndText
+{
+position:absolute; top: 190px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.End
+{
+position:absolute; top: 190px; left: 520px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+
+.TotalText
+{
+position:absolute; top: 220px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.Total
+{
+position:absolute; top: 220px; left: 520px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.DestText
+{
+position:absolute; top: 250px; left: 390px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.Dest
+{
+position:absolute; top: 250px; left: 520px;
+font-size : 14px; 
+font-weight : bold;
+}
+
+.DeleteButton
+{
+position:absolute; top: 370px; left: 380px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.BackButton
+{
+position:absolute; top: 370px; left: 446px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+position:absolute; top: 370px; left: 498px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.EditButton
+{
+position:absolute; top: 370px; left: 547px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+#AreYouSureText
+{
+position:absolute; top: 410px; left: 380px;
+color: red;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.YesButton
+{
+position:absolute; top: 30px; left: 80px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.NoButton
+{
+position:absolute; top: 30px; left: 120px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

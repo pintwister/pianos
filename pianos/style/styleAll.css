@@ -1,0 +1,56 @@
+                                                    
+body 
+{
+background-image: url(../paper.gif);
+font-family : arial;
+font-size: 14;
+font-weight: normal; 
+}
+
+pre
+{
+font-family : arial;
+font-size: 12;
+font-weight: bold; 
+}
+
+a
+{
+font: bold;
+color: #0000ff;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #ff0000;
+}
+
+input
+{
+color: #000000;
+background: transparent;
+}
+
+select
+{
+background: #dddddd;
+}
+
+#logout
+{
+position:absolute; top: 0px; left: 0px;
+}
+
+textarea
+{
+background: transparent;
+font-family: arial;
+font-size: 12px;
+font-weight: bold;
+}
+
+span
+{
+}
+

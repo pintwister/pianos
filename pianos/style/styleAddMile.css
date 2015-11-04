@@ -1,0 +1,100 @@
+
+#DateLabel
+{
+position:absolute; top: 130px; left: 180px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#DateInput
+{
+position:absolute; top: 145px; left: 335px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+.DateInput
+{
+position:absolute; top: 145px; left: 180px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+#StartLabel
+{
+position:absolute; top: 185px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.StartInput
+{
+position:absolute; top: 200px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+text-align: right;
+}
+
+#EndLabel
+{
+position:absolute; top: 235px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.EndInput
+{
+position:absolute; top: 250px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+text-align: right;
+}
+
+#ExplLabel
+{
+position:absolute; top: 300px; left: 180px;
+font-size: 10px;
+font-weight: bold;
+}
+
+.ExplInput
+{
+position:absolute; top: 315px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.SubmitButton
+{
+position:absolute; top: 410px; left: 390px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.CancelButton
+{
+position:absolute; top: 410px; left: 470px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

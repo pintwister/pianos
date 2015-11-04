@@ -1,0 +1,8 @@
+User-agent: *
+Sitemap:http://pintwister.aws.af.cm/Sitemap.xml
+Disallow: /base/
+Disallow: /Americans/
+Disallow: /BusinessCards/
+Disallow: /Images/
+Disallow: /pictures/
+Disallow: /Sounds/

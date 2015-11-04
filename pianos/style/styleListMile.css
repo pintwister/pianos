@@ -1,0 +1,159 @@
+#clicktext
+{
+position:absolute; top: 30px; left: 360px;
+width: 500px;
+height: 20px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#main
+{
+position:absolute; top: 80px; left: 100px;
+overflow: auto;
+font-size: 14px;
+font-weight: bold;
+width: 750px; height: 300px;
+}
+
+.link
+{
+position:absolute; left: 98;
+width: 200px;
+}
+
+.PrintButton
+{
+position: absolute; top: 400px; left: 331px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+position:absolute; top: 400px; left: 400px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.backbutton
+{
+position: absolute; top: 400px; left: 521px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+.date
+{
+position:absolute; left: 60px;
+}
+
+.start
+{
+position:absolute; left: 160px;
+text-align: right;
+width: 70px;
+}
+
+.end
+{
+position:absolute; left: 260px;
+text-align: right;
+width: 70px;
+}
+
+.tot
+{
+position:absolute; left: 330px;
+text-align: right;
+width: 70px;
+}
+
+.expl
+{
+position:absolute; left: 460px;
+}
+
+#total
+{
+position:absolute; top: 440px; left: 300px;
+font-size: 12px;
+font-weight: bold;
+text-align: right;
+width: 200px;
+}
+
+#headdate
+{
+position:absolute; top: 60px; left: 160px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headstart
+{
+position:absolute; top: 60px; left: 299px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headend
+{
+position:absolute; top: 60px; left: 405px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headtot
+{
+position:absolute; top: 60px; left: 469px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headexpl
+{
+position:absolute; top: 60px; left: 560px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headtext1
+{
+position:absolute; top: 30px; left: 160px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headtext2
+{
+position:absolute; top: 30px; left: 270px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headtext3
+{
+position:absolute; top: 30px; left: 370px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#headtext4
+{
+position:absolute; top: 30px; left: 420px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+

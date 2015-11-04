@@ -1,0 +1,293 @@
+
+#GreaterThanText
+{
+position:absolute; top: 84px; left: 160px;
+}
+
+#GreaterThanInput
+{
+position:absolute; top: 80px; left: 325px;
+}
+
+
+#LessThanText
+{
+position:absolute; top: 84px; left: 505px;
+}
+
+#LessThanInput
+{
+position:absolute; top: 80px; left: 647px;
+}
+
+
+#NameText
+{
+position:absolute; top: 160px; left: 180px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+#StNoNmText
+{
+position:absolute; top: 180px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#CitStZipText
+{
+position:absolute; top: 200px; left: 180px;
+font-size : 12px; 
+font-weight : bold;
+}
+
+#PhoneLabel
+{
+position:absolute; top: 250px; left: 180px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#PhoneText
+{
+position:absolute; top: 265px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#landlineLabel
+{
+position:absolute; top: 250px; left: 310px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#landlineText
+{
+position:absolute; top: 265px; left: 310px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell1Label
+{
+position:absolute; top: 295px; left: 180px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#cell1Text
+{
+position:absolute; top: 310px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#cell2Label
+{
+position:absolute; top: 295px; left: 310px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#cell2Text
+{
+position:absolute; top: 310px; left: 310px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#emailLabel
+{
+position:absolute; top: 365px; left: 180px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#emailText
+{
+position:absolute; top: 380px; left: 180px;
+font-size: 12px;
+font-weight: bold;
+}
+
+
+#LServiceLabel
+{
+position:absolute; top: 160px; left: 660px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#LServiceText
+{
+position:absolute; top: 175px; left: 660px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#NApptLabel
+{
+position:absolute; top: 195px; left: 660px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#NApptText
+{
+position:absolute; top: 210px; left: 660px;
+font-size: 12px;
+font-weight: bold;
+}
+
+#CommentsLabel
+{
+position:absolute; top: 430px; left: 170px;
+font-size : 10px; 
+font-weight : bold;
+}
+
+#CommentsText
+{
+position:absolute; top: 445px; left: 170px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.ViewServiceButton
+{
+position:absolute; top: 30px; left: 350px;
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.ButtonBar
+{
+position:absolute; top: 550px; left: 260px;
+}
+
+.NewSearchButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.DeleteButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.BackButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.MainButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.EditButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+#maptext
+{
+position: absolute; top: 550px; left: 595px;
+color: #0000ff;
+font-weight: bold;
+}
+
+.map
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #ddeeff;
+width: 60px;
+}
+
+.map2
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #ddeeff;
+width: 75px;
+}
+
+.map3
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #ddeeff;
+width: 53px;
+}
+
+#AreYouSureText
+{
+background: url(paper.gif);
+position:absolute; top: 675px; left: 215px;
+color: red;
+font-size : 12px; 
+font-weight : bold;
+text-align: center;
+width: 500px; height: 120px;
+}
+
+.YesButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+.NoButton
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+#total
+{
+position:absolute; top: 580px; left: 300px;
+color: red;
+width: 300px;
+text-align: center;
+tect-align: center;
+}
+
+.PayCharge
+{
+color: #000000;
+border:3px #eeeeee outset ;
+background: #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
